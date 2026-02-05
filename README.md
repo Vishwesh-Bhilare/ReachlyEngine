@@ -9,7 +9,7 @@ It is designed to run fully locally using Ollama, without relying on cloud APIs.
 - Analyzes the profile to infer a structured persona
 - Stores personas locally for reuse
 - Generates tailored outreach messages for:
-Email
+  - Email
   - WhatsApp or SMS
   - LinkedIn DM
   - Instagram DM
