@@ -39,15 +39,38 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Make sure Ollama is running:
-```bash
+## Ollama setup
+
+ReachlyEngine uses Ollama to run large language models locally.
+
+### Install Ollama
+
+- macOS / Linux
+  ```
+  curl -fsSL https://ollama.com/install.sh | sh
+  ```
+
+- Windows
+  Download and install from:
+  https://ollama.com/download
+  
+After installation, start the Ollama service:
+```
 ollama serve
 ```
 
-And that you have a model available, for example:
-```bash
+### Download a model
+Pull a supported model (example: Llama 3):
+```
 ollama pull llama3
 ```
+
+You can verify Ollama is working by running:
+```
+ollama list
+```
+
+Once Ollama is running and a model is pulled, ReachlyEngine is ready to use.
 
 ---
 
