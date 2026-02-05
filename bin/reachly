@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+import sys
+from pathlib import Path
+
+# --- ensure project root is on PYTHONPATH ---
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT_DIR))
+# -------------------------------------------
+
+from reachly_engine.main import run
+
+
+if __name__ == "__main__":
+    try:
+        run()
+    except KeyboardInterrupt:
+        print("\nExiting ReachlyEngine.")
+        sys.exit(0)
+

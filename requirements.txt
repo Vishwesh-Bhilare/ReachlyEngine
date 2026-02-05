@@ -1,0 +1,23 @@
+# Core
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+lxml>=5.1.0
+
+# CLI UX
+rich>=13.7.0
+prompt-toolkit>=3.0.43
+
+# Data & models
+pydantic>=2.6.1
+
+# LLM integration
+httpx>=0.26.0
+
+# Utilities
+python-dotenv>=1.0.1
+tqdm>=4.66.1
+
+# Optional (future-safe)
+scikit-learn>=1.4.0
+numpy>=1.26.3
+
