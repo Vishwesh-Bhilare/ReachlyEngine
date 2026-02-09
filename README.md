@@ -197,5 +197,3 @@ Use responsibly and at your own risk.
 ## License
 
 MIT License
-
-```
