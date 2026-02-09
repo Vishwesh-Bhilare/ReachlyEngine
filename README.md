@@ -199,14 +199,3 @@ Use responsibly and at your own risk.
 MIT License
 
 ```
-
----
-
-If you want, next I can:
-- add **Windows + macOS troubleshooting**
-- tighten language for **OSS credibility**
-- add **badges + screenshots**
-- prep a **v1.0 release README**
-
-Just say 👌
-```
