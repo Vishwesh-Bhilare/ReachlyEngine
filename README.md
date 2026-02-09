@@ -1,15 +1,3 @@
-Got it 👍
-Here’s **your same README**, with **only the required changes applied**:
-
-* ✅ macOS → **Homebrew install**
-* ✅ Windows → **CLI (winget) install**
-* ❌ No extra fluff
-* ❌ No restructuring
-* ✅ Copy-paste safe
-
----
-
-````md
 # ReachlyEngine
 
 ReachlyEngine is an offline, LLM-powered outreach engine that turns LinkedIn profiles into structured personas and generates personalized outreach messages across multiple channels.
