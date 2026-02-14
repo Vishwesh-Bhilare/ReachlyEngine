@@ -51,4 +51,3 @@ def find_similar_prospects(
         rows = conn.execute(query, params).fetchall()
 
     return [dict(row) for row in rows]
-
