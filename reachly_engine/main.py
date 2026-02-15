@@ -79,6 +79,9 @@ def run() -> None:
                 menu.view_personas()
 
             elif choice == "4":
+                menu.generate_followups()
+
+            elif choice == "5":
                 sys.exit(0)
 
             else:
