@@ -24,7 +24,8 @@ for p in [DATA_DIR, PROFILES_DIR, SUMMARIES_DIR, MESSAGES_DIR]:
 # Ollama Configuration
 # --------------------
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "mistral:7b-instruct-q4_K_M")
+OLLAMA_MODEL = "llama3:latest"
+#os.getenv("OLLAMA_MODEL", "mistral:7b-instruct-q4_K_M")
 
 OLLAMA_TIMEOUT = int(os.getenv("OLLAMA_TIMEOUT", "120"))
 

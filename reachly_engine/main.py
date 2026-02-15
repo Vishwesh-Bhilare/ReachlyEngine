@@ -89,3 +89,5 @@ def run() -> None:
                 "\n[yellow]Interrupted. Returning to menu.[/yellow]"
             )
 
+if __name__ == "__main__":
+    run()
